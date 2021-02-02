@@ -1,0 +1,220 @@
+%!PS-Adobe-2.0
+%%Pages: 1
+%%EndComments
+%!
+/MSAVE { /mStat save def } def
+/MRESTORE { mStat restore } def
+/SET { exch def } def
+/SF { /wi SET theFont [wi 0 0 FSIZE 0 0] makefont setfont } def
+/L { newpath moveto lineto stroke } def
+/VL { 2 index exch L } def
+/HL { 1 index L } def
+/BOX { /@yb SET /@xb SET /@yt SET /@xt SET newpath
+ @xb @yb moveto @xb @yt lineto @xt @yt lineto @xt @yb lineto closepath } def
+/SL { moveto show } def
+/SR { exch dup /@xr SET 2 index stringwidth pop sub dup
+ 0 le { pop 0 @xr 3 -1 roll SC } { exch FSIZE 2 div sub moveto show }
+ ifelse } def
+/SCP { /@s SET @s stringwidth pop /@sw SET @sw 2 div sub
+ dup @sw add maxX gt { pop maxX @sw sub } if exch moveto @s show } def
+/SC { FSIZE 2 div sub /@y SET /@x2 SET /@x1 SET /@s SET
+ /@l @x2 @x1 sub def /@x @x1 @x2 add 2 div def
+ /@w @s stringwidth pop def @l @w gt
+ { @y @x @s SCP }
+ { @l FSIZE mul @w 1 add div dup MINFSIZE lt
+ { pop } { /svf currentfont def SF @y @x @s SCP svf setfont } ifelse }ifelse
+} def
+/LE { exch GX GY FSIZE 2 div add SR /@x GX def
+ { dup stringwidth pop /@w SET /@x @x FSIZE add def @x @w add
+ 720 ge { /@x GX FSIZE add def /GY GY FSIZE 2 add sub def } if
+ @x GY SL /@x @x @w add def } repeat /GY GY FSIZE 4 add sub def } def
+/FSIZE 9 def /MINFSIZE 4 def /maxX 718 def
+612 0 translate
+90 rotate
+36 55 translate
+1 setlinecap 0.6 setlinewidth 
+/theFont /Helvetica findfont def FSIZE SF
+%%Page: 1 1
+%%PageOrientation: Landscape
+MSAVE
+0.82 setgray
+0 506 720 521 BOX fill
+0 setgray
+0 506 720 521 BOX stroke
+(Decoder_plot)6 514 FSIZE 2 div sub SL
+(Thu Dec 10 09:52:37 2020
+) 713 514 SR
+0 -19 720 521 BOX stroke
+0 setlinewidth [1 3] 0 setdash /svfnt currentfont def
+theFont 0.7 FSIZE mul scalefont setfont
+(time \(ns\)) 0 -1 1 SC
+1 505 -3 VL
+(0.00) 0 2 -9 SC
+90 505 -3 VL
+(25.00) 0 180 -9 SC
+179 505 -3 VL
+(50.00) 0 358 -9 SC
+269 505 -3 VL
+(75.00) 0 538 -9 SC
+358 505 -3 VL
+(100.00) 0 716 -9 SC
+447 505 -3 VL
+(125.00) 0 894 -9 SC
+537 505 -3 VL
+(150.00) 0 1074 -9 SC
+626 505 -3 VL
+(175.00) 0 1252 -9 SC
+716 505 -3 VL
+(200.00) 0 1432 -9 SC
+-2 1 718 HL
+0.6 setlinewidth [] 0 setdash svfnt setfont
+(in)715 463 SR
+(out)715 386 SR
+(En)715 314 SR
+1 431 494 VL
+1 494 3 497 L
+1 431 3 427 L
+(XX)1 1 463 SC
+3 497 88 HL
+3 427 88 HL
+90 431 494 VL
+88 497 90 494 L
+88 427 90 431 L
+90 494 92 497 L
+90 431 92 427 L
+(10)1 90 463 SC
+92 497 177 HL
+92 427 177 HL
+179 431 494 VL
+177 497 179 494 L
+177 427 179 431 L
+179 494 181 497 L
+179 431 181 427 L
+(00)90 179 463 SC
+181 497 267 HL
+181 427 267 HL
+269 431 494 VL
+267 497 269 494 L
+267 427 269 431 L
+269 494 271 497 L
+269 431 271 427 L
+(01)179 269 463 SC
+271 497 356 HL
+271 427 356 HL
+358 431 494 VL
+356 497 358 494 L
+356 427 358 431 L
+358 494 360 497 L
+358 431 360 427 L
+(00)269 358 463 SC
+360 497 535 HL
+360 427 535 HL
+537 431 494 VL
+535 497 537 494 L
+535 427 537 431 L
+537 494 539 497 L
+537 431 539 427 L
+(11)358 537 463 SC
+539 497 624 HL
+539 427 624 HL
+626 431 494 VL
+624 497 626 494 L
+624 427 626 431 L
+626 494 628 497 L
+626 431 628 427 L
+(01)537 626 463 SC
+628 497 716 HL
+628 427 716 HL
+(00)626 716 463 SC
+1 354 416 VL
+1 416 3 420 L
+1 354 3 350 L
+(XXXX)1 1 386 SC
+3 354 416 VL
+3 420 3 416 L
+3 350 3 354 L
+3 416 5 420 L
+3 354 5 350 L
+(0X0X)1 3 386 SC
+3 354 416 VL
+5 420 3 416 L
+5 350 3 354 L
+3 416 5 420 L
+3 354 5 350 L
+(0X00)3 3 386 SC
+5 420 89 HL
+5 350 89 HL
+91 354 416 VL
+89 420 91 416 L
+89 350 91 354 L
+91 416 93 420 L
+91 354 93 350 L
+(0100)3 91 386 SC
+92 354 416 VL
+93 420 92 416 L
+93 350 92 354 L
+92 416 94 420 L
+92 354 94 350 L
+(0000)91 92 386 SC
+94 420 178 HL
+94 350 178 HL
+180 354 416 VL
+178 420 180 416 L
+178 350 180 354 L
+180 416 182 420 L
+180 354 182 350 L
+(0001)92 180 386 SC
+182 354 416 VL
+182 420 182 416 L
+182 350 182 354 L
+182 416 184 420 L
+182 354 184 350 L
+(0011)180 182 386 SC
+184 420 267 HL
+184 350 267 HL
+269 354 416 VL
+267 420 269 416 L
+267 350 269 354 L
+269 416 271 420 L
+269 354 271 350 L
+(0010)182 269 386 SC
+271 354 416 VL
+271 420 271 416 L
+271 350 271 354 L
+271 416 273 420 L
+271 354 273 350 L
+(0000)269 271 386 SC
+273 420 357 HL
+273 350 357 HL
+359 354 416 VL
+357 420 359 416 L
+357 350 359 354 L
+359 416 361 420 L
+359 354 361 350 L
+(0001)271 359 386 SC
+360 354 416 VL
+361 420 360 416 L
+361 350 360 354 L
+360 416 362 420 L
+360 354 362 350 L
+(1001)359 360 386 SC
+362 420 446 HL
+362 350 446 HL
+448 354 416 VL
+446 420 448 416 L
+446 350 448 354 L
+448 416 450 420 L
+448 354 450 350 L
+(1000)360 448 386 SC
+450 420 716 HL
+450 350 716 HL
+(0000)448 716 386 SC
+0.68 setgray
+1 343 1 285 BOX fill
+0 setgray
+1 285 343 VL
+1 343 447 HL
+447 285 343 VL
+447 285 716 HL
+showpage MRESTORE
+%%EOF

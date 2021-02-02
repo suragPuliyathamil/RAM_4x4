@@ -1,0 +1,48 @@
+timestamp 1607485093
+version 8.2
+tech scmos
+style pharosc200-55nm
+scale 1 1 5.5
+resistclasses 6700 7320 4090 4090 1207000 1207000 7360 87 57 57 57 57 20
+node "a_35_33#" 40992 0 35 33 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_0_33#" 40992 0 0 33 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 64827 83.5788 -11 33 pdif 0 0 504 148 0 0 0 0 0 0 0 0 0 0 568 158 0 0 0 0 0 0 0 0 0 0
+equiv "vdd" "vdd"
+node "R" 220105 71.9934 39 24 p 0 0 0 0 0 0 0 0 0 0 0 0 150 138 104 68 192 104 0 0 0 0 0 0 0 0
+node "Q_bar" 262572 127.312 -2 10 ndif 81 40 166 70 0 0 0 0 0 0 0 0 142 130 430 224 300 166 0 0 0 0 0 0 0 0
+node "Q" 278217 166.511 4 24 p 81 40 166 70 0 0 0 0 0 0 0 0 150 138 558 288 388 210 0 0 0 0 0 0 0 0
+node "S" 205353 73.3418 -6 21 p 0 0 0 0 0 0 0 0 0 0 0 0 142 130 104 68 160 88 0 0 0 0 0 0 0 0
+node "vss" 2645883 111.083 -18 -10 pw 348 160 0 0 0 0 72 48 0 0 2849 228 0 0 568 158 0 0 0 0 0 0 0 0 0 0
+equiv "vss" "vss"
+node "w_n18_27#" 2065311 0 -18 27 nw 0 0 0 0 0 0 0 0 3465 244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_22_n5#" 0 0 22 -5 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n13_n5#" 0 0 -13 -5 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "R" "vdd" 9.9031
+cap "R" "a_35_33#" 7.3987
+cap "vdd" "a_0_33#" 4.639
+cap "vss" "S" 58.611
+cap "vdd" "a_35_33#" 4.639
+cap "vss" "Q" 121.278
+cap "vss" "Q_bar" 209.495
+cap "S" "Q" 127.377
+cap "vss" "R" 32.0658
+cap "S" "Q_bar" 7.6743
+cap "Q" "Q_bar" 309.08
+cap "Q" "R" 166.663
+cap "S" "vdd" 5.8224
+cap "Q" "vdd" 30.0801
+cap "Q_bar" "R" 240.753
+cap "Q" "a_0_33#" 6.4395
+cap "Q_bar" "vdd" 25.9994
+device mosfet nmos 42 7 43 8 2 8 "vss" "R" 4 0 "Q" 8 0 "vss" 8 0
+device mosfet nmos 31 10 32 11 2 8 "vss" "Q_bar" 4 0 "vss" 8 0 "Q" 8 0
+device mosfet nmos 7 7 8 8 2 8 "vss" "Q" 4 0 "Q_bar" 8 0 "vss" 8 0
+device mosfet nmos -4 10 -3 11 2 8 "vss" "S" 4 0 "vss" 8 0 "Q_bar" 8 0
+device mosfet pmos 40 33 41 34 2 28 "vdd" "R" 4 0 "a_35_33#" 28 0 "Q" 28 0
+device mosfet pmos 33 33 34 34 2 28 "vdd" "Q_bar" 4 0 "vdd" 28 0 "a_35_33#" 28 0
+device mosfet pmos 5 33 6 34 2 28 "vdd" "Q" 4 0 "a_0_33#" 28 0 "Q_bar" 28 0
+device mosfet pmos -2 33 -1 34 2 28 "vdd" "S" 4 0 "vdd" 28 0 "a_0_33#" 28 0
+subcap "R" -2.4656
+subcap "Q_bar" -2.4656
+subcap "Q" -25.6163
+subcap "S" -8.10105

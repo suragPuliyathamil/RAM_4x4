@@ -1,0 +1,165 @@
+timestamp 1607486678
+version 8.2
+tech scmos
+style pharosc200-55nm
+scale 1 1 5.5
+resistclasses 6700 7320 4090 4090 1207000 1207000 7360 87 57 57 57 57 20
+node "m2_83_n34#" 484 5.55443 83 -34 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 76 0 0 0 0 0 0 0 0
+node "a_74_n22#" 17420 0 74 -22 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_67_n22#" 17420 0 67 -22 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Output" 37539 50.3041 94 -18 ndif 57 32 116 50 0 0 0 0 0 0 0 0 0 0 229 118 188 102 0 0 0 0 0 0 0 0
+node "a_n52_n22#" 17420 0 -52 -22 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n59_n22#" 17420 0 -59 -22 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n106_n22#" 17420 0 -106 -22 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n113_n22#" 17420 0 -113 -22 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_53_10#" 244784 69.8732 53 10 pdif 77 40 195 82 0 0 0 0 0 0 0 0 128 116 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_27_4#" 40992 0 27 4 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n8_4#" 40992 0 -8 4 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n73_10#" 244784 69.8732 -73 10 pdif 77 40 195 82 0 0 0 0 0 0 0 0 128 116 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n127_10#" 244784 69.8732 -127 10 pdif 77 40 195 82 0 0 0 0 0 0 0 0 128 116 0 0 0 0 0 0 0 0 0 0 0 0
+node "Select" 618740 447.548 -102 -5 p 0 0 0 0 0 0 0 0 0 0 0 0 408 372 1000 532 912 480 0 0 0 0 0 0 0 0
+node "a_n140_n17#" 444159 303.8 -140 -17 ndif 57 32 116 50 0 0 0 0 0 0 0 0 272 248 788 402 760 404 0 0 0 0 0 0 0 0
+node "R" 261193 255.679 -86 -18 ndif 57 32 116 50 0 0 0 0 0 0 0 0 150 138 793 424 548 290 0 0 0 0 0 0 0 0
+node "Q_bar" 262572 127.312 -10 -19 ndif 81 40 166 70 0 0 0 0 0 0 0 0 142 130 430 224 300 166 0 0 0 0 0 0 0 0
+node "Q" 502524 266.58 -4 -5 p 81 40 166 70 0 0 0 0 0 0 0 0 294 270 742 372 556 302 0 0 0 0 0 0 0 0
+node "S" 243302 126.89 -32 -18 ndif 57 32 116 50 0 0 0 0 0 0 0 0 142 130 373 206 324 178 0 0 0 0 0 0 0 0
+node "RorW" 384138 408.793 -146 -5 p 0 0 0 0 0 0 0 0 0 0 0 0 258 234 1124 570 636 334 0 0 0 0 0 0 0 0
+node "a_n166_n17#" 247064 162.885 -166 -17 ndif 57 32 116 50 0 0 0 0 0 0 0 0 144 132 492 246 296 164 0 0 0 0 0 0 0 0
+node "Input" 395168 269.096 -172 -5 p 0 0 0 0 0 0 0 0 0 0 0 0 266 242 672 336 372 202 0 0 0 0 0 0 0 0
+node "vss" 9941681 423.206 -184 -39 pw 1140 438 0 0 0 0 396 216 0 0 10841 660 0 0 2280 586 0 0 0 0 0 0 0 0 0 0
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+node "vdd" 8321479 417.924 -184 -2 nw 0 0 1869 634 324 168 0 0 13185 676 0 0 0 0 2280 586 0 0 0 0 0 0 0 0 0 0
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+node "ab_49_n34#" 0 0 49 -34 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_14_n34#" 0 0 14 -34 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n21_n34#" 0 0 -21 -34 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n153_n34#" 0 0 -153 -34 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n179_n34#" 0 0 -179 -34 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_n59_n22#" "Input" 4.7176
+cap "a_n73_10#" "S" 146.057
+cap "vdd" "a_n8_4#" 4.639
+cap "vss" "RorW" 86.5599
+cap "Select" "a_53_10#" 138.051
+cap "Input" "vss" 83.355
+cap "a_n127_10#" "R" 146.057
+cap "a_n166_n17#" "vdd" 15.0391
+cap "m2_83_n34#" "a_53_10#" 19.0312
+cap "a_67_n22#" "a_53_10#" 9.278
+cap "a_n73_10#" "R" 33.6657
+cap "Q" "a_53_10#" 77.0824
+cap "vss" "Q_bar" 209.495
+cap "Q" "S" 127.377
+cap "a_n140_n17#" "R" 112.654
+cap "vdd" "RorW" 15.5603
+cap "Select" "R" 8.636
+cap "a_n127_10#" "a_n166_n17#" 66.7237
+cap "Output" "vss" 29.7024
+cap "Q" "R" 195.141
+cap "vdd" "Q_bar" 25.9994
+cap "a_n166_n17#" "a_n140_n17#" 400.015
+cap "Select" "a_74_n22#" 9.49045
+cap "Select" "a_n166_n17#" 23.307
+cap "Q" "a_n8_4#" 6.4395
+cap "a_n73_10#" "Input" 66.7237
+cap "a_n73_10#" "a_n59_n22#" 9.278
+cap "a_n127_10#" "vss" 124.459
+cap "a_n140_n17#" "RorW" 73.9668
+cap "Output" "vdd" 59.1568
+cap "Select" "RorW" 1099.67
+cap "Input" "a_n140_n17#" 626.732
+cap "a_n59_n22#" "a_n140_n17#" 1.61975
+cap "Select" "Input" 31.943
+cap "a_n73_10#" "vss" 124.459
+cap "a_n166_n17#" "a_n113_n22#" 4.7176
+cap "a_n140_n17#" "vss" 73.6346
+cap "a_67_n22#" "RorW" 1.61975
+cap "Q" "RorW" 333.66
+cap "Select" "vss" 58.9062
+cap "a_n127_10#" "vdd" 110.51
+cap "a_53_10#" "a_74_n22#" 9.278
+cap "a_27_4#" "R" 7.3987
+cap "m2_83_n34#" "vss" 22.9854
+cap "a_n73_10#" "vdd" 110.51
+cap "Q" "vss" 140.913
+cap "Q" "Q_bar" 309.08
+cap "vdd" "a_n140_n17#" 46.1597
+cap "a_53_10#" "RorW" 119.945
+cap "m2_83_n34#" "Output" 55.5576
+cap "a_n127_10#" "a_n106_n22#" 9.278
+cap "vdd" "Q" 30.0801
+cap "a_n127_10#" "a_n140_n17#" 135.483
+cap "vss" "a_53_10#" 124.459
+cap "a_n127_10#" "Select" 138.051
+cap "S" "vss" 137.147
+cap "a_n73_10#" "a_n140_n17#" 119.945
+cap "S" "Q_bar" 7.6743
+cap "Select" "a_n106_n22#" 9.49045
+cap "a_n73_10#" "Select" 138.051
+cap "R" "RorW" 446.718
+cap "Input" "R" 123.676
+cap "Select" "a_n140_n17#" 686.867
+cap "Output" "a_53_10#" 146.057
+cap "vdd" "a_53_10#" 110.51
+cap "vss" "R" 61.7682
+cap "a_n127_10#" "a_n113_n22#" 9.278
+cap "vdd" "S" 78.2975
+cap "R" "Q_bar" 240.753
+cap "m2_83_n34#" "Select" 95.1913
+cap "a_n166_n17#" "RorW" 156.454
+cap "a_n166_n17#" "Input" 241
+cap "Select" "Q" 23.307
+cap "a_n73_10#" "a_n52_n22#" 9.278
+cap "a_n140_n17#" "a_n113_n22#" 1.61975
+cap "vdd" "a_27_4#" 4.639
+cap "a_n166_n17#" "vss" 209.823
+cap "a_67_n22#" "Q" 4.7176
+cap "Input" "RorW" 8.636
+cap "vdd" "R" 69.0599
+cap "Select" "a_n52_n22#" 9.49045
+device mosfet nmos 92 -18 93 -17 2 9 "vss" "a_53_10#" 4 0 "vss" 9 0 "Output" 9 0
+device mosfet nmos 79 -22 80 -21 2 13 "vss" "Select" 4 0 "a_74_n22#" 13 0 "vss" 13 0
+device mosfet nmos 72 -22 73 -21 2 13 "vss" "RorW" 4 0 "a_67_n22#" 13 0 "a_74_n22#" 13 0
+device mosfet nmos 65 -22 66 -21 2 13 "vss" "Q" 4 0 "a_53_10#" 13 0 "a_67_n22#" 13 0
+device mosfet nmos 34 -22 35 -21 2 8 "vss" "R" 4 0 "Q" 8 0 "vss" 8 0
+device mosfet pmos 92 6 93 7 2 18 "vdd" "a_53_10#" 4 0 "vdd" 18 0 "Output" 18 0
+device mosfet nmos 23 -19 24 -18 2 8 "vss" "Q_bar" 4 0 "vss" 8 0 "Q" 8 0
+device mosfet nmos -1 -22 0 -21 2 8 "vss" "Q" 4 0 "Q_bar" 8 0 "vss" 8 0
+device mosfet nmos -12 -19 -11 -18 2 8 "vss" "S" 4 0 "vss" 8 0 "Q_bar" 8 0
+device mosfet nmos -34 -18 -33 -17 2 9 "vss" "a_n73_10#" 4 0 "vss" 9 0 "S" 9 0
+device mosfet nmos -47 -22 -46 -21 2 13 "vss" "Select" 4 0 "a_n52_n22#" 13 0 "vss" 13 0
+device mosfet nmos -54 -22 -53 -21 2 13 "vss" "a_n140_n17#" 4 0 "a_n59_n22#" 13 0 "a_n52_n22#" 13 0
+device mosfet nmos -61 -22 -60 -21 2 13 "vss" "Input" 4 0 "a_n73_10#" 13 0 "a_n59_n22#" 13 0
+device mosfet nmos -88 -18 -87 -17 2 9 "vss" "a_n127_10#" 4 0 "vss" 9 0 "R" 9 0
+device mosfet nmos -101 -22 -100 -21 2 13 "vss" "Select" 4 0 "a_n106_n22#" 13 0 "vss" 13 0
+device mosfet nmos -108 -22 -107 -21 2 13 "vss" "a_n140_n17#" 4 0 "a_n113_n22#" 13 0 "a_n106_n22#" 13 0
+device mosfet nmos -115 -22 -114 -21 2 13 "vss" "a_n166_n17#" 4 0 "a_n127_10#" 13 0 "a_n113_n22#" 13 0
+device mosfet pmos 82 11 83 12 2 13 "vdd" "Select" 4 0 "a_53_10#" 13 0 "vdd" 13 0
+device mosfet pmos 72 11 73 12 2 13 "vdd" "RorW" 4 0 "vdd" 13 0 "a_53_10#" 13 0
+device mosfet pmos 60 10 61 11 2 13 "vdd" "Q" 4 0 "a_53_10#" 13 0 "vdd" 13 0
+device mosfet pmos 32 4 33 5 2 28 "vdd" "R" 4 0 "a_27_4#" 28 0 "Q" 28 0
+device mosfet pmos 25 4 26 5 2 28 "vdd" "Q_bar" 4 0 "vdd" 28 0 "a_27_4#" 28 0
+device mosfet pmos -3 4 -2 5 2 28 "vdd" "Q" 4 0 "a_n8_4#" 28 0 "Q_bar" 28 0
+device mosfet pmos -10 4 -9 5 2 28 "vdd" "S" 4 0 "vdd" 28 0 "a_n8_4#" 28 0
+device mosfet pmos -34 6 -33 7 2 18 "vdd" "a_n73_10#" 4 0 "vdd" 18 0 "S" 18 0
+device mosfet pmos -44 11 -43 12 2 13 "vdd" "Select" 4 0 "a_n73_10#" 13 0 "vdd" 13 0
+device mosfet pmos -54 11 -53 12 2 13 "vdd" "a_n140_n17#" 4 0 "vdd" 13 0 "a_n73_10#" 13 0
+device mosfet pmos -66 10 -65 11 2 13 "vdd" "Input" 4 0 "a_n73_10#" 13 0 "vdd" 13 0
+device mosfet pmos -88 6 -87 7 2 18 "vdd" "a_n127_10#" 4 0 "vdd" 18 0 "R" 18 0
+device mosfet nmos -142 -17 -141 -16 2 9 "vss" "RorW" 4 0 "vss" 9 0 "a_n140_n17#" 9 0
+device mosfet nmos -168 -17 -167 -16 2 9 "vss" "Input" 4 0 "vss" 9 0 "a_n166_n17#" 9 0
+device mosfet pmos -98 11 -97 12 2 13 "vdd" "Select" 4 0 "a_n127_10#" 13 0 "vdd" 13 0
+device mosfet pmos -108 11 -107 12 2 13 "vdd" "a_n140_n17#" 4 0 "vdd" 13 0 "a_n127_10#" 13 0
+device mosfet pmos -120 10 -119 11 2 13 "vdd" "a_n166_n17#" 4 0 "a_n127_10#" 13 0 "vdd" 13 0
+device mosfet pmos -142 4 -141 5 2 18 "vdd" "RorW" 4 0 "vdd" 18 0 "a_n140_n17#" 18 0
+device mosfet pmos -168 4 -167 5 2 18 "vdd" "Input" 4 0 "vdd" 18 0 "a_n166_n17#" 18 0
+subcap "m2_83_n34#" -4.19523

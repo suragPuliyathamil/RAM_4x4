@@ -1,0 +1,60 @@
+| units: 5.5 tech: scmos format: MIT
+n a_53_10# vss Output 2 9 92 -18
+n S vss Q_bar 2 8 -12 -19
+p Q a_n8_4# Q_bar 2 28 -3 4
+p RorW vdd a_n140_n17# 2 18 -142 4
+n Select a_n52_n22# vss 2 13 -47 -22
+p a_53_10# vdd Output 2 18 92 6
+n Input a_n73_10# a_n59_n22# 2 13 -61 -22
+n a_n140_n17# a_n59_n22# a_n52_n22# 2 13 -54 -22
+n Q_bar vss Q 2 8 23 -19
+p a_n127_10# vdd R 2 18 -88 6
+p Input vdd a_n166_n17# 2 18 -168 4
+p a_n166_n17# a_n127_10# vdd 2 13 -120 10
+p Q_bar vdd a_27_4# 2 28 25 4
+n Q a_53_10# a_67_n22# 2 13 65 -22
+n RorW a_67_n22# a_74_n22# 2 13 72 -22
+n Select a_74_n22# vss 2 13 79 -22
+p Input a_n73_10# vdd 2 13 -66 10
+p Select a_n73_10# vdd 2 13 -44 11
+p RorW vdd a_53_10# 2 13 72 11
+n a_n73_10# vss S 2 9 -34 -18
+n Q Q_bar vss 2 8 -1 -22
+n R Q vss 2 8 34 -22
+n RorW vss a_n140_n17# 2 9 -142 -17
+p a_n73_10# vdd S 2 18 -34 6
+p Q a_53_10# vdd 2 13 60 10
+p a_n140_n17# vdd a_n127_10# 2 13 -108 11
+p a_n140_n17# vdd a_n73_10# 2 13 -54 11
+p Select a_53_10# vdd 2 13 82 11
+p Select a_n127_10# vdd 2 13 -98 11
+p R a_27_4# Q 2 28 32 4
+n a_n127_10# vss R 2 9 -88 -18
+n a_n140_n17# a_n113_n22# a_n106_n22# 2 13 -108 -22
+n Select a_n106_n22# vss 2 13 -101 -22
+p S vdd a_n8_4# 2 28 -10 4
+n a_n166_n17# a_n127_10# a_n113_n22# 2 13 -115 -22
+n Input vss a_n166_n17# 2 9 -168 -17
+R a_74_n22# 17
+R a_67_n22# 17
+R Output 38
+R a_n52_n22# 17
+R a_n59_n22# 17
+R a_n106_n22# 17
+R a_n113_n22# 17
+R a_53_10# 245
+R a_27_4# 41
+R a_n8_4# 41
+R a_n73_10# 245
+R a_n127_10# 245
+R Select 619
+R a_n140_n17# 444
+R R 261
+R Q_bar 263
+R Q 503
+R S 243
+R RorW 384
+R a_n166_n17# 247
+R Input 395
+R vss 9942
+R vdd 8321
